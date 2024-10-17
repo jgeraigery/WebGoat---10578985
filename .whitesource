@@ -1,3 +1,7 @@
 {
   "settingsInheritedFrom": "jgeraigery/whitesource-config@main"
+"scanSettingsSAST": {
+    "enableScan": "true",
+    "issueType": "finding"
+  } 
 }
