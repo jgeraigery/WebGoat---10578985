@@ -113,13 +113,13 @@
     <bootstrap.version>5.3.3</bootstrap.version>
     <cglib.version>3.3.0</cglib.version>
     <!-- do not update necessary for lesson -->
-    <checkstyle.version>3.4.0</checkstyle.version>
+    <checkstyle.version>3.6.0</checkstyle.version>
     <commons-collections.version>3.2.1</commons-collections.version>
-    <commons-compress.version>1.26.2</commons-compress.version>
-    <commons-io.version>2.16.1</commons-io.version>
+    <commons-compress.version>1.28.0</commons-compress.version>
+    <commons-io.version>2.20.0</commons-io.version>
     <commons-lang3.version>3.14.0</commons-lang3.version>
-    <commons-text.version>1.12.0</commons-text.version>
-    <guava.version>33.3.0-jre</guava.version>
+    <commons-text.version>1.14.0</commons-text.version>
+    <guava.version>33.4.8-jre</guava.version>
     <jacoco.version>0.8.11</jacoco.version>
     <java.version>21</java.version>
     <jaxb.version>2.3.1</jaxb.version>
@@ -142,12 +142,12 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <thymeleaf.version>3.1.2.RELEASE</thymeleaf.version>
     <waittimeForServerStart>30</waittimeForServerStart>
-    <webdriver.version>5.9.2</webdriver.version>
+    <webdriver.version>5.9.3</webdriver.version>
     <webgoat.context>/</webgoat.context>
     <webgoat.sslenabled>false</webgoat.sslenabled>
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webwolf.context>/</webwolf.context>
-    <wiremock.version>3.9.1</wiremock.version>
+    <wiremock.version>3.13.1</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
@@ -166,13 +166,13 @@
       <dependency>
         <groupId>org.ow2.asm</groupId>
         <artifactId>asm</artifactId>
-        <version>9.7</version>
+        <version>9.8</version>
       </dependency>
 
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-exec</artifactId>
-        <version>1.4.0</version>
+        <version>1.5.0</version>
       </dependency>
       <dependency>
         <groupId>org.asciidoctor</groupId>
@@ -213,13 +213,13 @@
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>jwks-rsa</artifactId>
-        <version>0.22.1</version>
+        <version>0.23.0</version>
       </dependency>
       <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>java-jwt</artifactId>
-        <version>4.4.0</version>
+        <version>4.5.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
@@ -584,7 +584,7 @@
       <plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
-        <version>2.41.1</version>
+        <version>2.46.1</version>
         <configuration>
           <formats>
             <format>
@@ -645,7 +645,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>3.6.1</version>
         <executions>
           <execution>
             <id>restrict-log4j-versions</id>
